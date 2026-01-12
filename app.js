@@ -95,3 +95,47 @@ function printColor (){
 
 printColor()
 console.log(myFavColor)
+
+//objects
+
+const person = {
+    name : "Bob",
+    age : 30,
+    favouriteColour: "red",
+
+};
+ console.log(person);
+ console.table(person);
+
+ console.log(person.name);
+ console.log(person.age);
+ console.log(person.favouriteColour);
+
+ person.favouriteFood= "pizza"
+ console.log(person.favouriteFood);
+
+ //blog
+
+ const blogPost = {
+    title: "My first blog post",
+    author: {
+        name : "Naimah",
+        age: 26,
+        favouriteColour: "Black"
+    },
+    tags: ["coding", "javascript", "objects", "array",],
+    content: "This is my first blog post about learning objects and array"
+ };
+ console.log(blogPost.author.name)
+ console.log(blogPost.tags[0]);
+ console.log(blogPost.tags.length);
+
+ //Car
+
+ const myCar = {
+    make : "prius",
+    year : 2007,
+    colour : "black",
+    content : "I'm selling my car"
+ }
+ console.log(myCar)
