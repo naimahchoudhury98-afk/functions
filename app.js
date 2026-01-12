@@ -75,3 +75,23 @@ console.log("The result is", calculating);
 
 const anotherCalculate = calculate(2,10,"*")
 console.log("the other results", anotherCalculate);  
+
+//workshop
+
+const myName="Muhid"
+function sayWagwan (){
+    console.log("Wagwan"+ " "+ myName +"!")
+}
+sayWagwan();
+console.log(myName);
+
+//color
+const myFavColor="black"
+
+function printColor (){
+    const myFavColor="red"
+    console.log(myFavColor)
+}
+
+printColor()
+console.log(myFavColor)
